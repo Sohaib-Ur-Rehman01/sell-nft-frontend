@@ -17,16 +17,16 @@ export default function DigitalArtist() {
             </p>
             <div className="flex justify-center align-center gap-10">
               <div className="flex flex-col justify-center align-center text-center">
-                <div className="font-[900] font-[44px]">10K+</div>
-                <div className="font-medium font-[26px]">RARE NFT</div>
+                <div className="font-[900] text-[44px]">10K+</div>
+                <div className="font-medium text-[26px]">RARE NFT</div>
               </div>
               <div className="flex flex-col justify-center align-center text-center">
-                <div className="font-[900] font-[44px]">80K+</div>
-                <div className="font-medium font-[26px]">PRODUCTS</div>
+                <div className="font-[900] text-[44px]">80K+</div>
+                <div className="font-medium text-[26px]">PRODUCTS</div>
               </div>
               <div className="flex flex-col justify-center align-center text-center">
-                <div className="font-[900] font-[44px]">05K+</div>
-                <div className="font-medium font-[26px]">NEW ARTIST</div>
+                <div className="font-[900] text-[44px]">05K+</div>
+                <div className="font-medium text-[26px]">NEW ARTIST</div>
               </div>
             </div>
           </div>

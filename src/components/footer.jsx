@@ -13,7 +13,7 @@ export default function Footer() {
             How It Works
           </h1>
           <div
-            className="flex justify-around md:flex-row md:items-start gap-10 md:gap-4 sm:flex border-2 border-[#FFFFFF] sm:flex-wrap 
+            className="flex justify-around md:flex-row md:items-start gap-10 md:gap-4 sm:flex  sm:flex-wrap 
             
              sm:justify-between 
             sm:items-center 

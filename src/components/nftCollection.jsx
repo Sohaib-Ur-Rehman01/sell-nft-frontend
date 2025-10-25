@@ -58,11 +58,11 @@ export default function NftCollection() {
           <p className="px-8 py-4 text-[40px] leading-[100%] tracking-[0%]">
             NFT Collection
           </p>
-          <div className="px-16 py-4 border-2 border-[#2636D9]">
+          <div className="px-16 py-4 ">
             <div className="flex flex-wrap w-full max-w-5xl gap-4 cursor-pointer transition-all duration-500 ease-in-out">
               {product.map((product) => (
                 <>
-                  <div className="relative overflow-hidden shadow group duration-300 transition-all  ease-in-out hover:shadow-2xl flex flex-col flex-wrap rounded-lg border-2 border-[#2636D9]">
+                  <div className="relative overflow-hidden shadow group duration-300 transition-all  ease-in-out hover:shadow-2xl flex flex-col flex-wrap rounded-lg ">
                     <img
                       src={product.cardImage}
                       className="h-[30vh] w-[15vw] duration-500 group-hover:h-[25vh]"
@@ -77,10 +77,14 @@ export default function NftCollection() {
                       </p>
                     </div>
                     <div className="flex justify-between px-2">
-                      <p>Price</p>
-                      <div className="flex gap-2 mr-4 border-2 border-[#2636D9] rounded-lg ">
+                      <p className="font-medium text-[14px] leading-[100%] tracking-normal text-[#4A4949]">
+                        Price
+                      </p>
+                      <div className="flex gap-2 mr-4 rounded-lg ">
                         <img src={coinImage} alt="" />
-                        <p>{product.coinPrice}</p>
+                        <p className="text-[#2636D9] text-[18px] leading-[100%] font-medium tracking-normal">
+                          {product.coinPrice}
+                        </p>
                       </div>
 
                       <img

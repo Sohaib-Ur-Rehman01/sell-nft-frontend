@@ -98,7 +98,7 @@ export default function BidSection() {
     <>
       <div className="max-w-[1200px] mx-auto mt-10 mb10 flex flex-wrap gap-8 justify-center sm:justify-center">
         {products.map((item) => (
-          <div className="w-[250px] max-w-[350px] border-2 border-black rounded-[16px] flex flex-col gap-4 relative item">
+          <div className="w-[250px] max-w-[350px] border-2 border-gray-200 rounded-[16px] flex flex-col gap-4 relative item">
             <img src={cardPic} alt="" className="" />
             <div className="p-1 py-1">
               <div className="flex flex-col gap-3">

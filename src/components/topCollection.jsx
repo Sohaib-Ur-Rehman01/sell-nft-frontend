@@ -78,14 +78,7 @@ export default function TopCollection() {
                         src={item.image}
                         alt={item.name}
                         className="
-                        
-        rounded-full object-cover
-        w-20 h-20            
-        sm:w-16 sm:h-16      
-        md:w-14 md:h-14      
-        lg:w-12 lg:h-12      
-                        
-                        "
+                          rounded-full object-cover w-20 h-20 sm:w-16 sm:h-16 md:w-14 md:h-14 lg:w-12 lg:h-12"
                       />
                     )}
                     {item.tickerImage && (
