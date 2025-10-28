@@ -10,20 +10,15 @@ import Footer from "./components/footer";
 export default function App() {
   return (
     <>
-      <div
-        // className="bg-coverbg-no-repeat gap-20 max-w-[1200px] mx-auto"
-        style={{
-          backgroundImage: `url(${backgroundImage})`,
-        }}
-      >
-        <div className="bg-coverbg-no-repeat flex flex-col max-w-[1200px] mx-auto">
+      <div>
+        <div className="bg-[url('/src/assets/background.webp')] bg-cover bg-center bg-no-repeat flex flex-col">
           <Navbar />
           <HeroSection />
         </div>
       </div>
       <DigitalArtist />
       <NftCollection />
-      <TopCollection />
+      {/* <TopCollection /> */}
       <BidSection />
       <Footer />
     </>

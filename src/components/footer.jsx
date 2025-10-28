@@ -8,14 +8,12 @@ export default function Footer() {
         className="mt-10 "
         style={{ backgroundImage: `url(${footerImage})` }}
       >
-        <div className="max-w-[1200px] mx-auto px-8 py-16 rounded-[16px] flex flex-col gap-8">
+        <div className="max-w-[1200px] mx-auto px-8 py-16 rounded-[16px] flex flex-wrap flex-col gap-8 ">
           <h1 className="font-medium text-[40px] leading-[100%] tracking-normal text-[#FFFFFF]">
             How It Works
           </h1>
           <div
-            className="flex justify-around md:flex-row md:items-start gap-10 md:gap-4 sm:flex  sm:flex-wrap 
-            
-             sm:justify-between 
+            className="flex flex-wrap justify-around md:flex-row md:items-start gap-10 md:gap-4 sm:flex  sm:flex-wrap sm:justify-between 
             sm:items-center 
             sm:gap-6"
           >

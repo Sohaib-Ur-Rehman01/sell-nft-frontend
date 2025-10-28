@@ -39,7 +39,7 @@ export default function TopCollection() {
 
   return (
     <>
-      <div className="max-w-[1200px] mx-auto">
+      <div className="max-w-[1200px] mx-auto px-[16px] py-[8px]">
         <div className="flex justify-between">
           <h1 className="font-medium text-[40px] leading-[100%] tracking-normal text-[#121212]">
             Top Collection
